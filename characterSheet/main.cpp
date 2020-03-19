@@ -7,7 +7,7 @@ int main()
     int mousey=0;
     sf::RenderWindow window(sf::VideoMode(1024, 768), "Button");
     tgui::Gui gui{window};
-    sf::CircleShape shape(100.f);
+    //sf::CircleShape shape(100.f);
     sf::Font font;
         if (!font.loadFromFile("Sarai.ttf"))
         {
